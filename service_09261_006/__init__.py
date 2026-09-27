@@ -1,3 +1,5 @@
 """数字教材资源核验服务端包。"""
-PROJECT_CODE="service_09261_006"
+PROJECT_CODE = "service_09261_006"
 from .workflow import Workflow
+from .verification import VerificationService
+from .store import SQLiteStore
